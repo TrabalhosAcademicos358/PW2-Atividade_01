@@ -3,11 +3,20 @@
   --color-secondary: #00875F;
   --color-tertiary: #864293;
   --color-white: #ffffff;
+
+  --font-primary: Inter, sans-serif;
+  --font-seconf: Roboto, sans-serif;
 }
 
 @font-face {
   font-family: Inter;
   src: url(./fonts/Inter-Variable.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Bold.ttf) format("truetype");
+  font-weight: 700;
 }
 
 * {
@@ -22,7 +31,7 @@ html {
 }
 
 body {
-  font-family: Inter, sans-serif;
+  font-family: var(--font-primary);
 }
 
 @media (min-width: 2560px) {

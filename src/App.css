@@ -76,6 +76,7 @@ body {
 
 .section-contact {
   display: flex;
+  align-items: center;
   gap: 32rem;
 }
 
@@ -96,9 +97,11 @@ input::placeholder {
 .button {
   background: var(--color-secondary);
   color: var(--color-white);
+  cursor: pointer;
+  font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 16rem;
-  padding: 16rem 24rem;
+  padding: 16rem 24rem 14rem;
   border-radius: 8rem;
 }
 
