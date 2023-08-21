@@ -3,6 +3,11 @@
   --color-tertiary: #864293;
 }
 
+@font-face {
+  font-family: Inter;
+  src: url(./fonts/Inter-Variable.ttf) format("truetype");
+}
+
 * {
   border: 0;
   margin: 0;
@@ -12,6 +17,10 @@
 
 html {
   font-size: 6.5%;
+}
+
+body {
+  font-family: Inter, sans-serif;
 }
 
 @media (min-width: 2560px) {
