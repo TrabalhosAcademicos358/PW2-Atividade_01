@@ -3,16 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <main className="card">
         <header className='header'>
           <div className='header-rectagle' />
         </header>
         
-        <span>
+        <section>
           <h1 className='title'>Encontre <span className='text-contrast'>Fábio</span> no local de partida</h1>
           <h2 className='subTitle'>Chega em 3 minutos (800 metros)</h2>
-        </span>
+        </section>
 
         <div className='section-analysis'>
           <img className='img' src={img_01} alt='Foto do usuário com carro'/>

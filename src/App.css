@@ -1,6 +1,19 @@
+body {
+  padding: 25rem;
+  min-width: 100vh;
+  background: #111;
+}
+
 .card {
-  height: 1025rem;
-  width: 1024rem;
+  background: #fff;
+  width: 1025rem;
+  border-radius: 40px;
+  padding: 24rem 68rem 37rem;
+
+  display: flex;
+  flex-direction: column;
+  /* gap: 99rem; */
+  gap: 80rem;
 }
 
 .header {
@@ -13,8 +26,9 @@
 .header-rectagle {
   background: #E5D8EA;
   /* height: 68rem; */
-  height: 50rem;
-  width: 168rem;
+  height: 55rem;
+  /* width: 168rem; */
+  width: 140rem;
   border-radius: 999px;
   margin-top: 24rem;
 }
@@ -31,6 +45,10 @@
   font-size: 25rem;
   font-weight: 500;
   line-height: 30.26rem;
+}
+
+.text-contrast {
+  color: var(--color-tertiary);
 }
 
 .section-analysis {
