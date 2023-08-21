@@ -1,10 +1,12 @@
+import phoneIcon from "./img/phone.svg";
+import fieldIcon from "./img/field.svg";
 import img_01 from './img/img_01.svg';
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <main className="card">
+    <main>
+      <div className="card">
         <header className='header'>
           <div className='header-rectagle' />
         </header>
@@ -21,8 +23,17 @@ function App() {
             <h2 className='subTitle'>Honda Civic Roxo</h2>
           </span>
         </div>
-      </main>
-    </div>
+
+        <section className='section-contact'>
+          <input placeholder='Enviar mensagem para Fábio...' className='input' />
+          <button className='button'>Publicar</button>
+          <picture className='section-contact-icons'>
+            <img src={phoneIcon} className="icons" />
+            <img src={fieldIcon} className="icons" />
+          </picture>
+        </section>
+      </div>
+    </main>
   );
 }
 

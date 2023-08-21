@@ -1,6 +1,8 @@
 :root {
   --color-primary: #372D3B;
+  --color-secondary: #00875F;
   --color-tertiary: #864293;
+  --color-white: #ffffff;
 }
 
 @font-face {
