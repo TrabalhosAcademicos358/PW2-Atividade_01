@@ -31,11 +31,13 @@ function App() {
 
         <section className='section-contact'>
           <input placeholder='Enviar mensagem para Fábio...' className='input' />
-          <button className='button'>Publicar</button>
-          <picture className='section-contact-icons'>
-            <img src={phoneIcon} className="icons" />
-            <img src={fieldIcon} className="icons" />
-          </picture>
+          <div className="section-contact">
+            <button className='button'>Publicar</button>
+            <picture className='section-contact-icons'>
+              <img src={phoneIcon} className="icons" />
+              <img src={fieldIcon} className="icons" />
+            </picture>
+          </div>
         </section>
 
         <section className="section-message">

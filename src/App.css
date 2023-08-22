@@ -1,7 +1,11 @@
+body {
+  min-height: 100vh;
+  background: #111;
+}
+
 .app {
   padding: 25rem;
   min-height: 100vh;
-  background: #111;
 }
 
 .app,
@@ -27,16 +31,14 @@
 
 .card > * {
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .header-rectagle {
   background: #E5D8EA;
-  /* height: 68rem; */
-  height: 55rem;
-  /* width: 168rem; */
-  width: 140rem;
+  height: 68rem;
+  width: 168rem;
   border-radius: 999px;
-  margin-top: 24rem;
 }
 
 .title {
@@ -61,6 +63,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 40rem;
 }
 
 .section-analysis .title {
@@ -86,8 +89,6 @@
 
 .input {
   background: #F5EDF7;
-  /* height: 64rem; */
-  /* width: 589.92rem; */
   width: 60%;
   border-radius: 24rem;
   padding: 17rem 29rem;
@@ -123,4 +124,18 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   gap: 34.71rem;
+}
+
+@media (max-width: 992px) {
+  .section-contact {
+    justify-content: center;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .section-analysis {
+    justify-content: center;
+  }
 }
