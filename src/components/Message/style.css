@@ -30,4 +30,7 @@
     border-radius: 8rem;
 }
 
-.img-delete {}
+.img-delete {
+    height: 24rem;
+    width: 24rem;
+}

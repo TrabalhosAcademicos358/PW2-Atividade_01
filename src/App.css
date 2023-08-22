@@ -1,12 +1,21 @@
-body {
+.app {
   padding: 25rem;
-  min-width: 100vh;
+  min-height: 100vh;
   background: #111;
+}
+
+.app,
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
   background: var(--color-white);
-  width: 1025rem;
+  max-width: 1025rem;
+  width: 100%;
   border-radius: 40px;
   padding: 24rem 68rem 37rem;
 
@@ -16,11 +25,8 @@ body {
   gap: 80rem;
 }
 
-.header {
+.card > * {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .header-rectagle {
@@ -71,8 +77,6 @@ body {
 .img {
   height: 170.29rem;
 }
-
-/* contacts */
 
 .section-contact {
   display: flex;

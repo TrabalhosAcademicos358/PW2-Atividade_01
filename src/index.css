@@ -27,7 +27,7 @@
 }
 
 html {
-  font-size: 6.5%;
+  font-size: 4%;
 }
 
 body {
@@ -48,24 +48,24 @@ body {
 
 @media (max-width: 1280px) {
   html {
-    font-size: 4%;
+    font-size: 4.5%;
   }
 }
 
 @media (max-width: 1024px) {
   html {
-    font-size: 3%;
+    font-size: 4.25%;
   }
 }
 
 @media (max-width: 768px) {
   html {
-    font-size: 2%;
+    font-size: 3.25%;
   }
 }
 
 @media (max-width: 500px) {
   html {
-    font-size: 1.5%;
+    font-size: 4%;
   }
 }

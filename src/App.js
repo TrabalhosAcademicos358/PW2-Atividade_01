@@ -3,13 +3,14 @@ import perfil_02 from "./img/perfil_02.svg";
 import phoneIcon from "./img/phone.svg";
 import fieldIcon from "./img/field.svg";
 import img_01 from './img/img_01.svg';
+
 import './App.css';
 
 import Message from "./components/Message";
 
 function App() {
   return (
-    <main>
+    <main className="app">
       <div className="card">
         <header className='header'>
           <div className='header-rectagle' />
