@@ -5,6 +5,7 @@
     padding: 11rem 31rem 12rem 9rem;
     width: 100%;
     justify-content: space-between;
+    gap: 10rem;
 }
 
 .section-comment,
@@ -33,4 +34,14 @@
 .img-delete {
     height: 24rem;
     width: 24rem;
+}
+
+@media (max-width: 992px) {
+    .section-comment-user {
+        gap: 40rem;
+    }
+
+    .text-comment {
+        font-size: 13rem;
+    }
 }
