@@ -1,0 +1,33 @@
+.section-comment {
+    background: #E5E1E6;
+    border: 1px solid #F0EAEA;
+    border-radius: 9rem;
+    padding: 11rem 31rem 12rem 9rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section-comment,
+.section-comment-user {
+    display: flex;
+    align-items: center;
+}
+
+.section-comment-user {
+    gap: 105rem;
+}
+
+.text-comment {
+    font-family: var(--font-secondary);
+    font-size: 12rem;
+    font-weight: 700;
+    line-height: 19.2rem;
+}
+
+.img-perfil {
+    height: 50rem;
+    width: 50rem;
+    border-radius: 8rem;
+}
+
+.img-delete {}
